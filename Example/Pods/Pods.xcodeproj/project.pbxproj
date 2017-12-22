@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058482156A70F4451D9A11DDBFAA7680 /* Pods-RNEthDaemoniOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B69ABB768CFBF76DEFA57DD6FB107C /* Pods-RNEthDaemoniOS_Example-dummy.m */; };
+		227CCD54A5D4B157BE6ACB2AB2537D0E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 36336DB12367BCE76CB8581CAFEF765A /* ReplaceMe.m */; };
+		4ED467E26FE79D5109CFB351F5F5641B /* RNEthDaemoniOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 258BC13914D9CF2D54E0E204039B5B08 /* RNEthDaemoniOS-dummy.m */; };
+		7F596DB4A2CD908978F94B8AD7DD10AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		ADA86E3B7027D5421F06C4BF19A60522 /* Pods-RNEthDaemoniOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E004212DA991C1EC3086DE815316B82F /* Pods-RNEthDaemoniOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF8A0A2DBA77669C3ADA9853454D47B2 /* Pods-RNEthDaemoniOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32702F0AE86855D29CC563A7DFE81DCA /* Pods-RNEthDaemoniOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E583C09341B9BB15BF61065D0773AB05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EBB1373C0F474956CEC76FDEAB50614F /* Pods-RNEthDaemoniOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EF3F640B9D24DC731D2021372CA501 /* Pods-RNEthDaemoniOS_Tests-dummy.m */; };
+		F9413F635D2A3F6658FC2862BBC7EA34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FE5DCE7DA479DC7D1EE2BF37E29A05FD /* RNEthDaemoniOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D28944E84D45696072D30F3CC3F247A3 /* RNEthDaemoniOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		263E281EB12E837364028795989F208B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D90135D37EBCDDA0BB5CC273D0968DDF;
+			remoteInfo = RNEthDaemoniOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E9E4EB90EA259B0C5F5A09694A9A08 /* RNEthDaemoniOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNEthDaemoniOS.xcconfig; sourceTree = "<group>"; };
+		09B54A4B9FD74DA7A79676C7A467DAAB /* Pods-RNEthDaemoniOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNEthDaemoniOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		12F1D6A09B01877460035CF9C8C5D0BE /* RNEthDaemoniOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RNEthDaemoniOS.modulemap; sourceTree = "<group>"; };
+		231C8C6EBB5DE744085F2CD80657B729 /* Pods_RNEthDaemoniOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RNEthDaemoniOS_Example.framework; path = "Pods-RNEthDaemoniOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		258BC13914D9CF2D54E0E204039B5B08 /* RNEthDaemoniOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNEthDaemoniOS-dummy.m"; sourceTree = "<group>"; };
+		28EF3F640B9D24DC731D2021372CA501 /* Pods-RNEthDaemoniOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNEthDaemoniOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		2C80782AC36227BA800FD5E85CD0F35B /* Pods-RNEthDaemoniOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNEthDaemoniOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		32702F0AE86855D29CC563A7DFE81DCA /* Pods-RNEthDaemoniOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RNEthDaemoniOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		347C424B559545319B60D0425CA7AFC8 /* Pods-RNEthDaemoniOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNEthDaemoniOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36336DB12367BCE76CB8581CAFEF765A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RNEthDaemoniOS/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		38B69ABB768CFBF76DEFA57DD6FB107C /* Pods-RNEthDaemoniOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNEthDaemoniOS_Example-dummy.m"; sourceTree = "<group>"; };
+		50BDD406F8126AA7C93B282909F8AF3F /* Pods_RNEthDaemoniOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RNEthDaemoniOS_Tests.framework; path = "Pods-RNEthDaemoniOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		585363FBEC1FDC8696403CD39091A806 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6174196180C4D1A4BD7B1421D0C41745 /* RNEthDaemoniOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNEthDaemoniOS-prefix.pch"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		711A842BC5A338828316D4BA427BBDEB /* Pods-RNEthDaemoniOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNEthDaemoniOS_Example-resources.sh"; sourceTree = "<group>"; };
+		77B96CEE678B85035263D1C368DCF122 /* Pods-RNEthDaemoniOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNEthDaemoniOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7B49809C6B3479DE2BD8E04F51163D50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CFD5B5C7F51F7D8CA5D95E30FF102D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF4628F52333FAB484112F20427B474B /* Pods-RNEthDaemoniOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNEthDaemoniOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B0476500CDD6B0AE2B768B7BD2D85851 /* Pods-RNEthDaemoniOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RNEthDaemoniOS_Example.modulemap"; sourceTree = "<group>"; };
+		B743AE6C4D5C8D9BE4C7192D427DFEBA /* Pods-RNEthDaemoniOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RNEthDaemoniOS_Tests.modulemap"; sourceTree = "<group>"; };
+		BCDD40FCFA392EED5CF373DA258A5975 /* Pods-RNEthDaemoniOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNEthDaemoniOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C574A00BD411DDAAEE5E42768ECE5025 /* Pods-RNEthDaemoniOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNEthDaemoniOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D28944E84D45696072D30F3CC3F247A3 /* RNEthDaemoniOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNEthDaemoniOS-umbrella.h"; sourceTree = "<group>"; };
+		D6910766B38A4DE7B5D4E72029724354 /* Pods-RNEthDaemoniOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNEthDaemoniOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E004212DA991C1EC3086DE815316B82F /* Pods-RNEthDaemoniOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RNEthDaemoniOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E343B0C91F90446851CA31A10A412B76 /* Pods-RNEthDaemoniOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNEthDaemoniOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7A92FCDB1EBE6A615ECC488D2CC11BA /* Pods-RNEthDaemoniOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNEthDaemoniOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F712B0A0258CFD8ACACE3C7812DA296D /* Pods-RNEthDaemoniOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNEthDaemoniOS_Tests-resources.sh"; sourceTree = "<group>"; };
+		FF6A940709C13D0E5C6C1940415E7536 /* RNEthDaemoniOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RNEthDaemoniOS.framework; path = RNEthDaemoniOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4552025124EEC6104971ABC3A76BE95A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9413F635D2A3F6658FC2862BBC7EA34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876884D3F96C0FF589438132523702DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E583C09341B9BB15BF61065D0773AB05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F7A9E586F6AB7C7150D6D083A8E9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F596DB4A2CD908978F94B8AD7DD10AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29BF3DFC653948185AFFFE5E0F210D35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				231C8C6EBB5DE744085F2CD80657B729 /* Pods_RNEthDaemoniOS_Example.framework */,
+				50BDD406F8126AA7C93B282909F8AF3F /* Pods_RNEthDaemoniOS_Tests.framework */,
+				FF6A940709C13D0E5C6C1940415E7536 /* RNEthDaemoniOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4757285BF75CD1140EE8A62A7FF2CCE7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7229CFBBB123F9D674F9EF5D05EDE56A /* RNEthDaemoniOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		543A850046D6783783AE74AE120EC6E2 /* Pods-RNEthDaemoniOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7B49809C6B3479DE2BD8E04F51163D50 /* Info.plist */,
+				B0476500CDD6B0AE2B768B7BD2D85851 /* Pods-RNEthDaemoniOS_Example.modulemap */,
+				347C424B559545319B60D0425CA7AFC8 /* Pods-RNEthDaemoniOS_Example-acknowledgements.markdown */,
+				2C80782AC36227BA800FD5E85CD0F35B /* Pods-RNEthDaemoniOS_Example-acknowledgements.plist */,
+				38B69ABB768CFBF76DEFA57DD6FB107C /* Pods-RNEthDaemoniOS_Example-dummy.m */,
+				77B96CEE678B85035263D1C368DCF122 /* Pods-RNEthDaemoniOS_Example-frameworks.sh */,
+				711A842BC5A338828316D4BA427BBDEB /* Pods-RNEthDaemoniOS_Example-resources.sh */,
+				32702F0AE86855D29CC563A7DFE81DCA /* Pods-RNEthDaemoniOS_Example-umbrella.h */,
+				C574A00BD411DDAAEE5E42768ECE5025 /* Pods-RNEthDaemoniOS_Example.debug.xcconfig */,
+				09B54A4B9FD74DA7A79676C7A467DAAB /* Pods-RNEthDaemoniOS_Example.release.xcconfig */,
+			);
+			name = "Pods-RNEthDaemoniOS_Example";
+			path = "Target Support Files/Pods-RNEthDaemoniOS_Example";
+			sourceTree = "<group>";
+		};
+		55C2F85EA71BC4CC85C172A4E05CF88D /* Pods-RNEthDaemoniOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7CFD5B5C7F51F7D8CA5D95E30FF102D8 /* Info.plist */,
+				B743AE6C4D5C8D9BE4C7192D427DFEBA /* Pods-RNEthDaemoniOS_Tests.modulemap */,
+				E343B0C91F90446851CA31A10A412B76 /* Pods-RNEthDaemoniOS_Tests-acknowledgements.markdown */,
+				BCDD40FCFA392EED5CF373DA258A5975 /* Pods-RNEthDaemoniOS_Tests-acknowledgements.plist */,
+				28EF3F640B9D24DC731D2021372CA501 /* Pods-RNEthDaemoniOS_Tests-dummy.m */,
+				AF4628F52333FAB484112F20427B474B /* Pods-RNEthDaemoniOS_Tests-frameworks.sh */,
+				F712B0A0258CFD8ACACE3C7812DA296D /* Pods-RNEthDaemoniOS_Tests-resources.sh */,
+				E004212DA991C1EC3086DE815316B82F /* Pods-RNEthDaemoniOS_Tests-umbrella.h */,
+				D6910766B38A4DE7B5D4E72029724354 /* Pods-RNEthDaemoniOS_Tests.debug.xcconfig */,
+				E7A92FCDB1EBE6A615ECC488D2CC11BA /* Pods-RNEthDaemoniOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-RNEthDaemoniOS_Tests";
+			path = "Target Support Files/Pods-RNEthDaemoniOS_Tests";
+			sourceTree = "<group>";
+		};
+		7229CFBBB123F9D674F9EF5D05EDE56A /* RNEthDaemoniOS */ = {
+			isa = PBXGroup;
+			children = (
+				36336DB12367BCE76CB8581CAFEF765A /* ReplaceMe.m */,
+				BDC051EE2BD37AE12B1D846E811B8A14 /* Support Files */,
+			);
+			name = RNEthDaemoniOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4757285BF75CD1140EE8A62A7FF2CCE7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				29BF3DFC653948185AFFFE5E0F210D35 /* Products */,
+				A37F7E342F1907F9F05B09BA54571872 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A37F7E342F1907F9F05B09BA54571872 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				543A850046D6783783AE74AE120EC6E2 /* Pods-RNEthDaemoniOS_Example */,
+				55C2F85EA71BC4CC85C172A4E05CF88D /* Pods-RNEthDaemoniOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDC051EE2BD37AE12B1D846E811B8A14 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				585363FBEC1FDC8696403CD39091A806 /* Info.plist */,
+				12F1D6A09B01877460035CF9C8C5D0BE /* RNEthDaemoniOS.modulemap */,
+				00E9E4EB90EA259B0C5F5A09694A9A08 /* RNEthDaemoniOS.xcconfig */,
+				258BC13914D9CF2D54E0E204039B5B08 /* RNEthDaemoniOS-dummy.m */,
+				6174196180C4D1A4BD7B1421D0C41745 /* RNEthDaemoniOS-prefix.pch */,
+				D28944E84D45696072D30F3CC3F247A3 /* RNEthDaemoniOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RNEthDaemoniOS";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		782296F54CEEEC685DD4A563D8E55A6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5DCE7DA479DC7D1EE2BF37E29A05FD /* RNEthDaemoniOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A950FE1971928DE3C0CBCA98F53616AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8A0A2DBA77669C3ADA9853454D47B2 /* Pods-RNEthDaemoniOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EEDE98C581CA2766120FCCF24AE8D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA86E3B7027D5421F06C4BF19A60522 /* Pods-RNEthDaemoniOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		81098D8406928760636F449B1F8A7069 /* Pods-RNEthDaemoniOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370A1DCA355C683E47D2E78FF552E50F /* Build configuration list for PBXNativeTarget "Pods-RNEthDaemoniOS_Example" */;
+			buildPhases = (
+				82E7F5E11724856C22A4CBECDA8CA9DF /* Sources */,
+				4552025124EEC6104971ABC3A76BE95A /* Frameworks */,
+				A950FE1971928DE3C0CBCA98F53616AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA026085565FD3C052AA47E752872893 /* PBXTargetDependency */,
+			);
+			name = "Pods-RNEthDaemoniOS_Example";
+			productName = "Pods-RNEthDaemoniOS_Example";
+			productReference = 231C8C6EBB5DE744085F2CD80657B729 /* Pods_RNEthDaemoniOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D90135D37EBCDDA0BB5CC273D0968DDF /* RNEthDaemoniOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418AF766D2E0FDB07C1D8109BA228171 /* Build configuration list for PBXNativeTarget "RNEthDaemoniOS" */;
+			buildPhases = (
+				1A44E2000EDF83AD80278FFCC0F4102F /* Sources */,
+				D4F7A9E586F6AB7C7150D6D083A8E9E3 /* Frameworks */,
+				782296F54CEEEC685DD4A563D8E55A6C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNEthDaemoniOS;
+			productName = RNEthDaemoniOS;
+			productReference = FF6A940709C13D0E5C6C1940415E7536 /* RNEthDaemoniOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7FDD51C1678C7009A2D98E72E568554 /* Pods-RNEthDaemoniOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23EB1A33190C76AD01F3A96FAAC6CFD5 /* Build configuration list for PBXNativeTarget "Pods-RNEthDaemoniOS_Tests" */;
+			buildPhases = (
+				E73F4EFB5AE1ADE1156DFC2B48C6E177 /* Sources */,
+				876884D3F96C0FF589438132523702DA /* Frameworks */,
+				E6EEDE98C581CA2766120FCCF24AE8D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RNEthDaemoniOS_Tests";
+			productName = "Pods-RNEthDaemoniOS_Tests";
+			productReference = 50BDD406F8126AA7C93B282909F8AF3F /* Pods_RNEthDaemoniOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 29BF3DFC653948185AFFFE5E0F210D35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81098D8406928760636F449B1F8A7069 /* Pods-RNEthDaemoniOS_Example */,
+				F7FDD51C1678C7009A2D98E72E568554 /* Pods-RNEthDaemoniOS_Tests */,
+				D90135D37EBCDDA0BB5CC273D0968DDF /* RNEthDaemoniOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A44E2000EDF83AD80278FFCC0F4102F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227CCD54A5D4B157BE6ACB2AB2537D0E /* ReplaceMe.m in Sources */,
+				4ED467E26FE79D5109CFB351F5F5641B /* RNEthDaemoniOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E7F5E11724856C22A4CBECDA8CA9DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058482156A70F4451D9A11DDBFAA7680 /* Pods-RNEthDaemoniOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73F4EFB5AE1ADE1156DFC2B48C6E177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB1373C0F474956CEC76FDEAB50614F /* Pods-RNEthDaemoniOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA026085565FD3C052AA47E752872893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RNEthDaemoniOS;
+			target = D90135D37EBCDDA0BB5CC273D0968DDF /* RNEthDaemoniOS */;
+			targetProxy = 263E281EB12E837364028795989F208B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09E75C8E9B39B140DF32CFD8DD825450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C574A00BD411DDAAEE5E42768ECE5025 /* Pods-RNEthDaemoniOS_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RNEthDaemoniOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RNEthDaemoniOS_Example/Pods-RNEthDaemoniOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RNEthDaemoniOS_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10E8F9F2C00B4F395F1AB5EF9F94BE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6910766B38A4DE7B5D4E72029724354 /* Pods-RNEthDaemoniOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RNEthDaemoniOS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RNEthDaemoniOS_Tests/Pods-RNEthDaemoniOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RNEthDaemoniOS_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B5A83E5CE67FFCD52C20D55531409B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B54A4B9FD74DA7A79676C7A467DAAB /* Pods-RNEthDaemoniOS_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RNEthDaemoniOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RNEthDaemoniOS_Example/Pods-RNEthDaemoniOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RNEthDaemoniOS_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		511DD0A2D9BCB64BCB47CE4FF14063C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E9E4EB90EA259B0C5F5A09694A9A08 /* RNEthDaemoniOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RNEthDaemoniOS/RNEthDaemoniOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNEthDaemoniOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RNEthDaemoniOS/RNEthDaemoniOS.modulemap";
+				PRODUCT_NAME = RNEthDaemoniOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		91B48D882A75689584C44FB027371FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E9E4EB90EA259B0C5F5A09694A9A08 /* RNEthDaemoniOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RNEthDaemoniOS/RNEthDaemoniOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNEthDaemoniOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RNEthDaemoniOS/RNEthDaemoniOS.modulemap";
+				PRODUCT_NAME = RNEthDaemoniOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D33958603D1FEC48D02F66693364AA77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A92FCDB1EBE6A615ECC488D2CC11BA /* Pods-RNEthDaemoniOS_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RNEthDaemoniOS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RNEthDaemoniOS_Tests/Pods-RNEthDaemoniOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RNEthDaemoniOS_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23EB1A33190C76AD01F3A96FAAC6CFD5 /* Build configuration list for PBXNativeTarget "Pods-RNEthDaemoniOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E8F9F2C00B4F395F1AB5EF9F94BE76 /* Debug */,
+				D33958603D1FEC48D02F66693364AA77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370A1DCA355C683E47D2E78FF552E50F /* Build configuration list for PBXNativeTarget "Pods-RNEthDaemoniOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E75C8E9B39B140DF32CFD8DD825450 /* Debug */,
+				2B5A83E5CE67FFCD52C20D55531409B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418AF766D2E0FDB07C1D8109BA228171 /* Build configuration list for PBXNativeTarget "RNEthDaemoniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B48D882A75689584C44FB027371FEC /* Debug */,
+				511DD0A2D9BCB64BCB47CE4FF14063C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
