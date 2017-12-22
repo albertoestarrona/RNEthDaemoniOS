@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "RNEthDaemon.h"
 
 FOUNDATION_EXPORT double RNEthDaemoniOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char RNEthDaemoniOSVersionString[];

@@ -7,6 +7,7 @@
 //
 
 #import "RNAppDelegate.h"
+#import <React/RCTBridgeModule.h>
 
 @implementation RNAppDelegate
 

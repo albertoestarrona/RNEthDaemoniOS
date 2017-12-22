@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D90135D37EBCDDA0BB5CC273D0968DDF'
+               BlueprintIdentifier = '7EDBB3E1E75F0433228F6B79C0EF97CA'
                BlueprintName = 'RNEthDaemoniOS'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'RNEthDaemoniOS.framework'>

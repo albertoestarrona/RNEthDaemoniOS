@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "81098D8406928760636F449B1F8A7069"
+               BlueprintIdentifier = "6B17BFB631B9E6C6DE9E7500D191826A"
                BuildableName = "Pods_RNEthDaemoniOS_Example.framework"
                BlueprintName = "Pods-RNEthDaemoniOS_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "81098D8406928760636F449B1F8A7069"
+            BlueprintIdentifier = "6B17BFB631B9E6C6DE9E7500D191826A"
             BuildableName = "Pods_RNEthDaemoniOS_Example.framework"
             BlueprintName = "Pods-RNEthDaemoniOS_Example"
             ReferencedContainer = "container:Pods.xcodeproj">

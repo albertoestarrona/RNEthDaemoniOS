@@ -2,6 +2,18 @@ use_frameworks!
 
 target 'RNEthDaemoniOS_Example' do
   pod 'RNEthDaemoniOS', :path => '../'
+  
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+      'Core',
+      'DevSupport', # Include this to enable In-App Devmenu if RN >= 0.43
+      'RCTText',
+      'RCTNetwork',
+      'RCTWebSocket', # needed for debugging
+      'BatchedBridge', # Include if RN = 0.46
+      'RCTAnimation'
+    ]
+
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
 
   target 'RNEthDaemoniOS_Tests' do
     inherit! :search_paths

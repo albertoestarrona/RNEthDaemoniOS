@@ -62,11 +62,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74D4FA0AE669C9F44B1FD1F9 /* Pods_RNEthDaemoniOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNEthDaemoniOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		874F17A555483F06059B06C2 /* RNEthDaemoniOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RNEthDaemoniOS.podspec; path = ../RNEthDaemoniOS.podspec; sourceTree = "<group>"; };
+		874F17A555483F06059B06C2 /* RNEthDaemoniOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RNEthDaemoniOS.podspec; path = ../RNEthDaemoniOS.podspec; sourceTree = "<group>"; };
 		B4A0859EBEB9C9EF44401DC3 /* Pods-RNEthDaemoniOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNEthDaemoniOS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNEthDaemoniOS_Tests/Pods-RNEthDaemoniOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C211B58DFDAE0A0E359149ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C211B58DFDAE0A0E359149ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E2DBB5BB4FB1D5D4F20EF39F /* Pods-RNEthDaemoniOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNEthDaemoniOS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNEthDaemoniOS_Example/Pods-RNEthDaemoniOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FC312C66BA345DD82FDD6907 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FC312C66BA345DD82FDD6907 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = albertoestarrona;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 43R9NQ7PV3;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -350,10 +353,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RNEthDaemoniOS_Example/Pods-RNEthDaemoniOS_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RNEthDaemoniOS/RNEthDaemoniOS.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNEthDaemoniOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -533,6 +540,7 @@
 			baseConfigurationReference = 13150693B120DE055D1723DA /* Pods-RNEthDaemoniOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43R9NQ7PV3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RNEthDaemoniOS/RNEthDaemoniOS-Prefix.pch";
 				INFOPLIST_FILE = "RNEthDaemoniOS/RNEthDaemoniOS-Info.plist";
@@ -548,6 +556,7 @@
 			baseConfigurationReference = E2DBB5BB4FB1D5D4F20EF39F /* Pods-RNEthDaemoniOS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43R9NQ7PV3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RNEthDaemoniOS/RNEthDaemoniOS-Prefix.pch";
 				INFOPLIST_FILE = "RNEthDaemoniOS/RNEthDaemoniOS-Info.plist";
