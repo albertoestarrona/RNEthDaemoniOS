@@ -1,8 +1,8 @@
 {
   "name": "RNEthDaemoniOS",
   "version": "0.1.0",
-  "summary": "A short description of RNEthDaemoniOS.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Lightweight Ethereum daemon for iOS.",
+  "description": "Lightweight Ethereum daemon for iOS based on Geth.",
   "homepage": "https://github.com/albertoestarrona/RNEthDaemoniOS",
   "license": {
     "type": "MIT",
@@ -16,7 +16,13 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "RNEthDaemoniOS/Classes/**/*"
+  "source_files": "RNEthDaemoniOS/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Geth",
+      "source_files": "Frameworks/**"
+    }
+  ]
 }

@@ -7,6 +7,7 @@
 //
 
 #import "RNViewController.h"
+#import <RNEthDaemoniOS/RNEthDaemon.h>
 
 @interface RNViewController ()
 

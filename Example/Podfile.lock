@@ -1,16 +1,57 @@
 PODS:
-  - RNEthDaemoniOS (0.1.0)
+  - React/BatchedBridge (0.51.0):
+    - React/Core
+    - React/cxxreact_legacy
+  - React/Core (0.51.0):
+    - yoga (= 0.51.0.React)
+  - React/cxxreact_legacy (0.51.0):
+    - React/jschelpers_legacy
+  - React/DevSupport (0.51.0):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.51.0)
+  - React/jschelpers_legacy (0.51.0)
+  - React/RCTAnimation (0.51.0):
+    - React/Core
+  - React/RCTBlob (0.51.0):
+    - React/Core
+  - React/RCTNetwork (0.51.0):
+    - React/Core
+  - React/RCTText (0.51.0):
+    - React/Core
+  - React/RCTWebSocket (0.51.0):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - RNEthDaemoniOS (0.1.0):
+    - RNEthDaemoniOS/Geth (= 0.1.0)
+  - RNEthDaemoniOS/Geth (0.1.0)
+  - yoga (0.51.0.React)
 
 DEPENDENCIES:
+  - React/BatchedBridge (from `../node_modules/react-native`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
   - RNEthDaemoniOS (from `../`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
   RNEthDaemoniOS:
     :path: ../
+  yoga:
+    :path: ../node_modules/react-native/ReactCommon/yoga
 
 SPEC CHECKSUMS:
-  RNEthDaemoniOS: 0af9a04caad721c598833517ace7ea6b8083584d
+  React: 352f02f1db6e4744f9a758527e13e3fdefbbd6ba
+  RNEthDaemoniOS: 24757b32647d939a55ebf61c3f4e415d74f38348
+  yoga: b5d96400ca8b2936965a7a6516da7c1177f432a3
 
-PODFILE CHECKSUM: 6a21262dc6249f9266e413be8f91c7da6260639d
+PODFILE CHECKSUM: 7b98b7820defc76747e88cbf94cb43842df6eaa2
 
 COCOAPODS: 1.3.1
