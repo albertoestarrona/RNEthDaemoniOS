@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RNEthDaemoniOS_Example' do
+  pod 'RNEthDaemoniOS', :path => '../'
+
+  target 'RNEthDaemoniOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

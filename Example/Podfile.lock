@@ -1,0 +1,16 @@
+PODS:
+  - RNEthDaemoniOS (0.1.0)
+
+DEPENDENCIES:
+  - RNEthDaemoniOS (from `../`)
+
+EXTERNAL SOURCES:
+  RNEthDaemoniOS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RNEthDaemoniOS: 0af9a04caad721c598833517ace7ea6b8083584d
+
+PODFILE CHECKSUM: 6a21262dc6249f9266e413be8f91c7da6260639d
+
+COCOAPODS: 1.3.1

@@ -1,0 +1,6 @@
+framework module RNEthDaemoniOS {
+  umbrella header "RNEthDaemoniOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
